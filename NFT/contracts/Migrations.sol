@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.9.0;  // 버전정의
+// 현재파일 삭제금지
+// Migrations.json 파일과 1:1매칭이다.
+pragma solidity >=0.4.22 <0.9.0;  // 솔리디티 버전정의필요
 
 contract Migrations {
   address public owner = msg.sender;
